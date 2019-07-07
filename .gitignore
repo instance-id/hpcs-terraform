@@ -1,0 +1,24 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# .env files
+*.env
+
+# .secret files
+**/.secret/*
+**/.private/*
+
+# metadata
+**/metadata.tf/*
+
+**/ports/*
+
+**/.devcontainer/*
+**/.*/*
