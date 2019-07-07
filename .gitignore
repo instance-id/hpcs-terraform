@@ -16,9 +16,9 @@
 **/.private/*
 
 # metadata
-**/metadata.tf/*
+**/metadata.tf*
 
-**/ports/*
+**/ports*
 
 **/.devcontainer/*
 **/.*/*

@@ -1,0 +1,1 @@
+variable "gsuite_email" {}
