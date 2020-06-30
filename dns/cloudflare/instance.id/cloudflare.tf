@@ -1,3 +1,4 @@
+
 # Configure the Cloudflare provider
 provider "cloudflare" {
   version = "~> 2.0"
@@ -5,9 +6,9 @@ provider "cloudflare" {
   api_key = var.cloudflare_api_key
 }
 
-resource "cloudflare_zone" "termani" {
+resource "cloudflare_zone" "instance" {
   paused = false
   plan   = "free"
   type   = "full"
-  zone   = var.cloudflare_domain
+  zone   = "instance.id"
 }
